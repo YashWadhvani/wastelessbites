@@ -1,13 +1,395 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* .logo {
+  height: 75px;
+  width: 150px;
+  margin-left: -20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dntBtn {
+  border-radius: 25%; // Commented
+  width: 150px;
+  margin-top: 6px;
+} */
+
+/* .right {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../src/assets/img/hack\ bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container img {
+  height: 350px;
+  width: 350px;
+  margin-left: -15px;
+  margin-top: -87px;
+}
+
+ul {
+  margin-right: 200px;
+  margin-top: 40px;
+  display: flex;
+  float: right;
+}
+
+a {
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  text-decoration: none;
+  padding: 40px;
+  font-size: larger;
+}
+
+/* .login{
+    margin-top: 10px;
+    
+    float: right;
+}
+
+.login img{
+height: 50px;
+width: 50px;
+} */
+
+.donate {
+  height: 35px;
+  width: 115px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100px;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  align-items: center;
+  float: right;
+  margin-top: 75px;
+  margin-right: -704px;
+  border: 3px black solid;
+  transition: 1s;
+}
+
+.line1 {
+  font-family: "Noto Sans", sans-serif;
+  margin-right: 50px;
+  float: right;
+  font-size: 45px;
+}
+
+.underline p {
+  background-color: orangered;
+  width: 92px;
+  height: 6px;
+  float: right;
+  margin-right: -576px;
+  margin-top: 53px;
+}
+
+.line2 {
+  font-family: "Mooli", sans-serif;
+  float: right;
+  font-size: 20px;
+  margin-right: -455px;
+  margin-top: 78px;
+}
+
+.Readmore {
+  height: 35px;
+  width: 125px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100px;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  align-items: center;
+  float: right;
+  border: 3px black solid;
+  margin-right: -148px;
+  margin-top: 143px;
+  transition: 1s;
+}
+
+/* ---- main page ---- */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-top: 90px;
+}
+
+/*------ cards ------*/
+
+.card {
+  margin-top: 100px;
+  margin-left: 50px;
+  height: 350px;
+  width: 550px;
+  overflow: hidden;
+  border: white 7px solid;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: white;
+  transition: 2s;
+}
+
+.card:hover .card-body {
+  right: 0;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  margin-top: 43px;
+  margin-left: 25px;
+  font-size: 35px;
+  font-weight: 450;
+}
+
+.card-info {
+  margin-left: 20px;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 40px 0;
+}
+
+.cardbtn svg {
+  border-radius: 100px;
+  padding: 10px;
+  background: #3b6a79;
+  height: 25px;
+  width: 25px;
+  margin-left: 418px;
+  margin-top: -5px;
+}
+
+/* cards */
+
+/* ---- Diffrence ---- */
+
+.image1 img {
+  height: 393px;
+  width: 560px;
+  margin-top: 313px;
+  margin-left: 10px;
+}
+
+.image2 img {
+  height: 356px;
+  width: 520px;
+  margin-left: 10px;
+}
+
+.image3 img {
+  height: 424px;
+  width: 300px;
+  margin-right: 688px;
+  float: right;
+  margin-top: -600px;
+  position: relative;
+  border: 15px white solid;
+}
+
+.diff-title {
+  font-family: "Noto Sans", sans-serif;
+  margin-right: 50px;
+  float: right;
+  font-size: 43px;
+  margin-top: 305px;
+}
+
+.diff-info {
+  margin-right: 115px;
+  float: right;
+  margin-top: -585px;
+  font-size: 25px;
+}
+
+.diff-info pre {
+  font-family: "Merriweather", serif;
+}
+
+.Read-more {
+  height: 35px;
+  width: 125px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100px;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  border: 3px black solid;
+  margin-left: 55px;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+button:hover {
+  box-shadow: 5px 5px 0px black;
+}
+
+/* ---- Diffrence ---- */
+
+/* ----  Form ---- */
+
+.form-title {
+  font-family: "Noto Sans", sans-serif;
+  float: right;
+  font-size: 45px;
+}
+
+.form-title pre {
+  margin-top: 350px;
+  margin-right: 122px;
+}
+
+.form-image1 img {
+  margin-top: 350px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.form-image2 img {
+  margin-top: -141px;
+  margin-left: 250px;
+  height: 390px;
+  width: 390px;
+  border-radius: 50%;
+}
+
+.form {
+  margin-top: -450px;
+  float: right;
+}
+
+input[type="name1"] {
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: black 2px solid;
+  margin-left: 9px;
+  width: 35%;
+  border-radius: 40px;
+  padding-left: 10px;
+  font-size: medium;
+}
+
+input[type="name2"] {
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: black 2px solid;
+  width: 35%;
+  border-radius: 40px;
+  padding-left: 10px;
+  font-size: medium;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: black 2px solid;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: -54px;
+  width: 72%;
+  border-radius: 40px;
+  font-size: medium;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  border: black 2px solid;
+  color: white;
+  background-color: orangered;
+  margin-top: 15px;
+  margin-left: 13px;
+  width: 125px;
+  height: 40px;
+  border-radius: 40px;
+  font-size: medium;
+}
+
+/* ----  Form ---- */
+
+/* ---- Last ---- */
+
+/* .footer{
+    
+}
+
+.footer img{
+   margin-top: 450; 
+   background-color: transparent;
+   position: absolute;
+   width: 100%; 
+   height: 60vh;
+   background-size: cover;
+} */
+
+/* 
+.face{
+   
+    margin-left: 544px;
+}
+
+.face img{
+   
+    height: 50px;
+    width: 50px;
+}
+
+.insta{
+    margin-top: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.insta img{
+    height: 50px;
+    width: 50px;
+}
+
+.linked {
+    float: right;
+    margin-right: 300px;
+}
+
+.linked img{
+    height: 50px;
+    width: 50px;
+} */
+
+/* ---- Last ---- */
