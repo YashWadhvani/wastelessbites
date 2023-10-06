@@ -138,7 +138,7 @@ width: 50px;
   margin-top: 100px;
   margin-left: 50px;
   height: 350px;
-  width: 550px;
+  width: 450px;
   overflow: hidden;
   border: white 7px solid;
   border-radius: 20px;
@@ -182,17 +182,21 @@ width: 50px;
   font-family: "AR One Sans", sans-serif;
   font-size: 15px;
   line-height: 25px;
-  margin: 40px 0;
+  margin-top: 40px;
+  height: 100px;
+  width: auto;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
-.cardbtn svg {
+.cardbtn img {
   border-radius: 100px;
   padding: 10px;
   background: #3b6a79;
-  height: 25px;
-  width: 25px;
-  margin-left: 418px;
-  margin-top: -5px;
+  height: 50px;
+  width: 50px;
+  margin-left: 315px;
+  margin-top: -20px;
 }
 
 /* cards */

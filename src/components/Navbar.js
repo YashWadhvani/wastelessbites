@@ -1,6 +1,6 @@
 import React from "react";
 // import PropTypes from "prop-types";
-import logo from "../logo.png";
+// import logo from "../logo.png";
 
 export default function Navbar(props) {
   return (
@@ -9,7 +9,7 @@ export default function Navbar(props) {
         <div className="container-fluid">
           <a class="navbar-brand" href="/">
             <img
-              src={logo}
+              src={props.logoSrc}
               alt={props.brandName}
               width="30"
               height="24"

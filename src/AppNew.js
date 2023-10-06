@@ -1,23 +1,24 @@
 <>
-  {/* <div className="container">
-        <Navbar
-          homeText="Home"
-          blogText="Blogs"
-          aboutText="About Us"
-          brandName="WastelessBites"
-        />
-        <div className="line1">Recognise The Value Of Food </div>
-        <div className="underline">
-          <p></p>
-        </div>
-        <pre className="line2">
-          Food waste has a big impact on world climate. Stop wasting food and
-          start saving the planet.
-        </pre>
-        <button className="Readmore"> Read More </button>
-      </div>
+  <div className="container">
+    <Navbar
+      homeText="Home"
+      blogText="Blogs"
+      aboutText="About Us"
+      brandName="WastelessBites"
+      logoSrc={process.env.PUBLIC_URL + "/img/logo.png"}
+    />
+    <div className="line1">Recognise The Value Of Food </div>
+    <div className="underline">
+      <p></p>
+    </div>
+    <pre className="line2">
+      Food waste has a big impact on world climate. Stop wasting food and start
+      saving the planet.
+    </pre>
+    <button className="Readmore"> Read More </button>
+  </div>
 
-      <Mission /> */}
+  <Mission />
   {/* Main Page */}
 
   <div className="container">
@@ -62,11 +63,12 @@
         doing meaningful work, and help those in need.
       </pre>
       <div className="cardbtn">
-        <a href="#">
+        <a href="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1.5em"
             viewBox="0 0 448 512"
+            style={{ fill: "#ffffff" }}
           >
             {/* <style>
                             svg {

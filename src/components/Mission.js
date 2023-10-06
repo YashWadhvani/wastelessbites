@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 export default function Mission(props) {
   return (
@@ -16,7 +16,7 @@ export default function Mission(props) {
             need.
           </pre>
           <div className="cardbtn">
-            <a href="#">
+            <a href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="1.5em"
@@ -32,7 +32,7 @@ export default function Mission(props) {
     </>
   );
 
-  Mission.propTypes = {
-    title: PropTypes.string.isRequired,
-  };
+  // Mission.propTypes = {
+  //   title: PropTypes.string.isRequired,
+  // };
 }

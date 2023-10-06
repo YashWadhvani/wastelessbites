@@ -1,8 +1,9 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Mission from "./components/Mission";
+import Card from "./components/Card";
+// import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
-// import images from "../public/img";
+// import images from "../src/assets/img";
 
 // let wastelessBites = {};
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <img src="./img/logo1.png" alt="" />
+        {/* <img src={process.env.PUBLIC_URL + "/img/logo1.png"} alt="" />
         <ul>
           <a href="">
             <li>Home </li>
@@ -24,7 +25,14 @@ function App() {
           <a href="">
             <li>Gallery </li>
           </a>
-        </ul>
+        </ul> */}
+        <Navbar
+          homeText="Home"
+          blogText="Blogs"
+          aboutText="About Us"
+          brandName="WastelessBites"
+          logoSrc={process.env.PUBLIC_URL + "/img/logo1.png"}
+        />
         {/* <div className="login"><a href="#"> <img src="/img/icons8-person-64.png" alt=""> </a></div>     */}
         <button className="donate"> Donate </button>
         <div className="line1">Recognise The Value Of Food </div>
@@ -37,12 +45,14 @@ function App() {
         </pre>
         <button className="Readmore"> Read More </button>
       </div>
-
       {/* Main Page */}
-
       <div className="mission">Our Mission</div>
-      <div className="card">
-        <img src="./img/donation.jpg" alt="" className="card-img" />
+      {/* <div className="card">
+        <img
+          src={process.env.PUBLIC_URL + "/img/donation.jpg"}
+          alt=""
+          className="card-img"
+        />
         <div className="card-body">
           <p className="card-title">Donation</p>
           <pre className="card-info">
@@ -52,33 +62,34 @@ function App() {
             need.
           </pre>
           <div className="cardbtn">
-            <a href="#">
+            <a href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="1.5em"
                 viewBox="0 0 448 512"
+                style={{ fill: "#ffffff" }}
               >
-                {/* <style>
-                            svg {
-                                fill: #ffffff
-                            }
-                        </style> */}
                 <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
               </svg>
             </a>
           </div>
         </div>
-      </div>
-
+      </div> */}
+      <Card title="Donation" />
       {/* ---- Diffrence ---- */}
-
       <div className="diffrence">
         <div className="diff-title">
           <p>How we are making a Diffrence</p>
         </div>
 
         <div className="image1">
-          <img src="./img/homeless-winter-city-man-asking-food.jpg" alt="" />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/img/homeless-winter-city-man-asking-food.jpg"
+            }
+            alt=""
+          />
         </div>
         <div className="image2">
           <img src="./img/breakfast.jpeg" alt="" />
