@@ -1,31 +1,14 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import Card from "./components/Card";
-// import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
-// import images from "../src/assets/img";
-
-// let wastelessBites = {};
 
 function App() {
   return (
     <>
       <div className="container">
-        {/* <img src={process.env.PUBLIC_URL + "/img/logo1.png"} alt="" />
-        <ul>
-          <a href="">
-            <li>Home </li>
-          </a>
-          <a href="">
-            <li>About </li>
-          </a>
-          <a href="">
-            <li>Blog </li>
-          </a>
-          <a href="">
-            <li>Gallery </li>
-          </a>
-        </ul> */}
+        <div className="abs">
+          <img width={100} height={100} src="./img/bg.jpg" alt="" />
+        </div>
         <Navbar
           homeText="Home"
           blogText="Blogs"
@@ -33,49 +16,41 @@ function App() {
           brandName="WastelessBites"
           logoSrc={process.env.PUBLIC_URL + "/img/logo1.png"}
         />
-        {/* <div className="login"><a href="#"> <img src="/img/icons8-person-64.png" alt=""> </a></div>     */}
-        <button className="donate"> Donate </button>
+
         <div className="line1">Recognise The Value Of Food </div>
         <div className="underline">
           <p></p>
         </div>
         <pre className="line2">
-          Food waste has a big impact on world climate. Stop wasting food and
-          start saving the planet.
+          Food waste has a big impact on world climate. Stop wasting <br />
+          food and start saving the planet.
         </pre>
         <button className="Readmore"> Read More </button>
       </div>
-      {/* Main Page */}
+
       <div className="mission">Our Mission</div>
-      {/* <div className="card">
-        <img
-          src={process.env.PUBLIC_URL + "/img/donation.jpg"}
-          alt=""
-          className="card-img"
+      <div className="missionContainer">
+        <Card
+          title="Donation"
+          info="Our donation feature is designed to provide a seamless and convenient
+          way for you to contribute to causes you care about,support
+          organizations doing meaningful work, and help those in need."
+          imgSrc="./img/donation.jpg"
         />
-        <div className="card-body">
-          <p className="card-title">Donation</p>
-          <pre className="card-info">
-            Our donation feature is designed to provide a seamless and
-            convenient way for you to contribute to causes you care
-            about,support organizations doing meaningful work, and help those in
-            need.
-          </pre>
-          <div className="cardbtn">
-            <a href="/">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="1.5em"
-                viewBox="0 0 448 512"
-                style={{ fill: "#ffffff" }}
-              >
-                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div> */}
-      <Card title="Donation" />
+        <Card
+          title="Inventory"
+          info="Our inventory feature enables users to monitor their groceries and ingredients, minimizing food waste by ensuring timely usage before items expire. Efficient food management at your fingertips."
+          imgSrc="./img/inventory.jpg"
+        />
+        <Card
+          title="Meal Planning"
+          info="Our donation feature is designed to provide a seamless and convenient
+          way for you to contribute to causes you care about,support
+          organizations doing meaningful work, and help those in need."
+          imgSrc="./img/recipe.jpg"
+        />
+      </div>
+
       {/* ---- Diffrence ---- */}
       <div className="diffrence">
         <div className="diff-title">
@@ -98,15 +73,13 @@ function App() {
           <img src="./img/photo.jpeg" alt="" />
         </div>
         <div className="diff-info">
-          <pre>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            nesciunt fuga dolor, tempora a quidem provident animi tenetur
-            quibusdam cumque eum fugit facilis est, dolore distinctio sed
-            aliquid ea aut. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Veritatis, beatae molestiae et, libero dolores rerum
-            distinctio eligendi error nobis illo ipsum at a odio ducimus id
-            laboriosam consectetur vel suscipit.
-          </pre>
+          <p>
+            Our website empowers users to reduce food waste through efficient
+            meal planning, creative recipes, and food storage tips. Together,
+            we've saved thousands of pounds of food, cut carbon emissions, and
+            built strong local partnerships. Join our community and make a
+            positive impact on the environment and your community today!
+          </p>
           <button className="Read-more"> Read More </button>
         </div>
 

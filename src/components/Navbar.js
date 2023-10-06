@@ -1,11 +1,9 @@
 import React from "react";
-// import PropTypes from "prop-types";
-// import logo from "../logo.png";
 
 export default function Navbar(props) {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark">
         <div className="container-fluid">
           <a class="navbar-brand" href="/">
             <img
@@ -50,15 +48,24 @@ export default function Navbar(props) {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+      <img src={process.env.PUBLIC_URL + "/img/logo1.png"} alt="" />
+      <ul>
+        <a href="/">
+          <li>Home </li>
+        </a>
+        <a href="/">
+          <li>About </li>
+        </a>
+        <a href="/">
+          <li>Blog </li>
+        </a>
+        <a href="/">
+          <li>Gallery </li>
+        </a>
+      </ul>
+      <button class="donate"> Donate </button>
     </div>
   );
-
-  // Navbar.propTypes = {
-  //   brandName: PropTypes.string.isRequired,
-  //   // imgSrc: PropTypes.string.isRequired,
-  //   homeText: PropTypes.string.isRequired,
-  //   blogText: PropTypes.string,
-  //   aboutText: PropTypes.string,
-  // };
 }

@@ -26,12 +26,24 @@
   padding: 0;
 }
 
-.container {
+/* .root {
   height: 100vh;
   width: 100%;
   background-image: url(../src/assets/img/hack\ bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+} */
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url(wastelessbites\public\img\hack\ bg.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.abs {
+  position: absolute;
 }
 
 .container img {
@@ -103,7 +115,7 @@ width: 50px;
   font-family: "Mooli", sans-serif;
   float: right;
   font-size: 20px;
-  margin-right: -455px;
+  margin-right: -593px;
   margin-top: 78px;
 }
 
@@ -117,7 +129,7 @@ width: 50px;
   align-items: center;
   float: right;
   border: 3px black solid;
-  margin-right: -148px;
+  margin-right: -135px;
   margin-top: 143px;
   transition: 1s;
 }
@@ -136,9 +148,8 @@ width: 50px;
 
 .card {
   margin-top: 100px;
-  margin-left: 50px;
-  height: 350px;
-  width: 450px;
+  height: 302px;
+  width: 440px;
   overflow: hidden;
   border: white 7px solid;
   border-radius: 20px;
@@ -171,7 +182,7 @@ width: 50px;
 
 .card-title {
   font-family: "Poppins", sans-serif;
-  margin-top: 43px;
+  margin-top: 14px;
   margin-left: 25px;
   font-size: 35px;
   font-weight: 450;
@@ -182,11 +193,9 @@ width: 50px;
   font-family: "AR One Sans", sans-serif;
   font-size: 15px;
   line-height: 25px;
-  margin-top: 40px;
+  margin-top: 10px;
   height: 100px;
   width: auto;
-  word-break: break-all;
-  word-wrap: break-word;
 }
 
 .cardbtn img {
@@ -195,8 +204,8 @@ width: 50px;
   background: #3b6a79;
   height: 50px;
   width: 50px;
-  margin-left: 315px;
-  margin-top: -20px;
+  margin-left: 280px;
+  margin-top: -5px;
 }
 
 /* cards */
@@ -212,8 +221,9 @@ width: 50px;
 
 .image2 img {
   height: 356px;
-  width: 520px;
+  width: 560px;
   margin-left: 10px;
+  margin-top: 15px;
 }
 
 .image3 img {
@@ -228,6 +238,7 @@ width: 50px;
 
 .diff-title {
   font-family: "Noto Sans", sans-serif;
+  /* margin-left: -10px; */
   margin-right: 50px;
   float: right;
   font-size: 43px;
@@ -235,10 +246,11 @@ width: 50px;
 }
 
 .diff-info {
-  margin-right: 115px;
+  margin-right: 75px;
   float: right;
-  margin-top: -585px;
+  margin-top: -650px;
   font-size: 25px;
+  margin-left: 850px;
 }
 
 .diff-info pre {
@@ -253,7 +265,7 @@ width: 50px;
   color: rgb(0, 0, 0);
   font-size: medium;
   border: 3px black solid;
-  margin-left: 55px;
+  margin-left: 5px;
   margin-top: 10px;
   transition: 1s;
 }
@@ -343,6 +355,13 @@ input[type="submit"] {
   height: 40px;
   border-radius: 40px;
   font-size: medium;
+}
+
+.missionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* ----  Form ---- */
