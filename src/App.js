@@ -132,7 +132,7 @@ function App() {
 
       {/* <Donation /> */}
       {/* <Footer /> */}
-      <About />
+      {/* <About /> */}
 
       {/* <Routes>
           <Route exact path="/" element={<App />}></Route>
