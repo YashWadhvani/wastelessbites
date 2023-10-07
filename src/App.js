@@ -1,14 +1,18 @@
 import "./App.css";
-import Card from "./components/Card";
+import Card from "../src/components/Card";
+import Navbar from "../src/components/Navbar";
+import About from "../src/components/About";
+// import { Donation } from "../src/components/Donation";
+import { Login } from "../src/components/Login";
+import { SignUp } from "../src/components/SignUp";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import Footer from "./components/Footer";
-// import { Donation } from "./components/Donation";
-// import { Login } from "./components/Login";
-import Navbar from "./components/Navbar";
-// import { SignUp } from "./components/SignUp";
 
 function App() {
   return (
     <>
+      {/* <Router> */}
       <div className="container">
         <Navbar
           homeText="Home"
@@ -26,7 +30,7 @@ function App() {
           Food waste has a big impact on world climate. Stop wasting <br />
           food and start saving the planet.
         </pre>
-        <button className="Readmore"> Read More </button>
+        <button className="Readmore"> Donate </button>
       </div>
 
       <div className="mission">Our Mission</div>
@@ -128,6 +132,16 @@ function App() {
 
       {/* <Donation /> */}
       {/* <Footer /> */}
+      <About />
+
+      {/* <Routes>
+          <Route exact path="/" element={<App />}></Route>
+          <Route exact path="/login" element={<Login />}></Route>
+          <Route exact path="/signup" element={<SignUp />}></Route>
+          <Route exact path="/donation" element={<Donation />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+        </Routes>
+      </Router> */}
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 // import "./style.css";
-import "../style.css";
+import "../stylesheets/style.css";
 
 export const SignUp = () => {
   return (

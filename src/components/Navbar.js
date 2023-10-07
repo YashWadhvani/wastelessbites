@@ -55,7 +55,7 @@ export default function Navbar(props) {
         <a href="/">
           <li>Home </li>
         </a>
-        <a href="/">
+        <a href="/about">
           <li>About </li>
         </a>
         <a href="/">
@@ -65,7 +65,13 @@ export default function Navbar(props) {
           <li>Gallery </li>
         </a>
       </ul>
-      <button class="donate"> Donate </button>
+
+      <button
+        class="donate"
+        onClick={(window.location.href = "localhost:3000/donation")}
+      >
+        Login
+      </button>
     </div>
   );
 }
