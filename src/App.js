@@ -1,14 +1,15 @@
 import "./App.css";
 import Card from "./components/Card";
+// import Footer from "./components/Footer";
+// import { Donation } from "./components/Donation";
+// import { Login } from "./components/Login";
 import Navbar from "./components/Navbar";
+// import { SignUp } from "./components/SignUp";
 
 function App() {
   return (
     <>
       <div className="container">
-        <div className="abs">
-          <img width={100} height={100} src="./img/bg.jpg" alt="" />
-        </div>
         <Navbar
           homeText="Home"
           blogText="Blogs"
@@ -124,6 +125,9 @@ function App() {
 
         {/* /* ----  Form ---- */}
       </div>
+
+      {/* <Donation /> */}
+      {/* <Footer /> */}
     </>
   );
 }

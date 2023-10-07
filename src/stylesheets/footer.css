@@ -1,0 +1,10 @@
+.container {
+  display: block;
+  background-image: url(../../public/img/footer_bg.png);
+  width: 100%;
+  height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  padding: 0;
+}

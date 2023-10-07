@@ -37,13 +37,10 @@
 .container {
   height: 100vh;
   width: 100vw;
-  /* background-image: url(wastelessbites\public\img\hack\ bg.jpg); */
+  background-image: url(../public/img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-}
-.abs {
-  position: absolute;
 }
 
 .container img {
@@ -308,6 +305,7 @@ button:hover {
 .form {
   margin-top: -450px;
   float: right;
+  margin-left: -50px;
 }
 
 input[type="name1"] {
@@ -315,7 +313,7 @@ input[type="name1"] {
   padding-top: 10px;
   padding-bottom: 10px;
   border: black 2px solid;
-  margin-left: 9px;
+  margin-left: -7px;
   width: 35%;
   border-radius: 40px;
   padding-left: 10px;
@@ -330,16 +328,17 @@ input[type="name2"] {
   width: 35%;
   border-radius: 40px;
   padding-left: 10px;
+  margin-left: 20px;
   font-size: medium;
 }
 
 input[type="email"] {
   padding: 10px;
   border: black 2px solid;
-  height: 20px;
-  margin-left: 9px;
-  margin-right: -54px;
-  width: 72%;
+  height: 45px;
+  margin-left: -7px;
+  margin-right: -70px;
+  width: 74%;
   border-radius: 40px;
   font-size: medium;
   margin-top: 20px;
@@ -349,8 +348,7 @@ input[type="submit"] {
   border: black 2px solid;
   color: white;
   background-color: orangered;
-  margin-top: 15px;
-  margin-left: 13px;
+  margin-top: 20px;
   width: 125px;
   height: 40px;
   border-radius: 40px;
