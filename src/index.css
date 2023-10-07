@@ -90,10 +90,10 @@ a {
 
 .underline p {
   background-color: orangered;
-  width: 92px;
+  width: 97px;
   height: 6px;
   float: right;
-  margin-right: -576px;
+  margin-right: -601px;
   margin-top: 57px;
 }
 
@@ -101,7 +101,7 @@ a {
   font-family: "Mooli", sans-serif;
   float: right;
   font-size: 20px;
-  margin-right: -593px;
+  margin-right: -539px;
   margin-top: 78px;
 }
 
@@ -115,8 +115,8 @@ a {
   align-items: center;
   float: right;
   border: 3px black solid;
-  margin-right: -135px;
-  margin-top: 143px;
+  margin-top: 155px;
+  margin-right: -128px;
   transition: 1s;
 }
 
