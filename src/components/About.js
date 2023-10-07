@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="container">
         <div className="navbar">
-          <img src="img/1.png" alt="" />
+          <img src="../public/img/logo1.png" alt="" />
           <ul>
             <a href="/html/index.html">
               <li>Home</li>
@@ -35,7 +35,7 @@ export default function About() {
       {/* intro */}
 
       <div className="intro">
-        <img src="img/intro.jpg" alt="" />
+        <img src="../../public/aboutImg/._intro.jpg" alt="" />
         <pre>Welcome to wasteless bites Organisation</pre>
         <p>
           Charite is the world's #1 fundraising site forcharitable <br />{" "}
@@ -65,7 +65,7 @@ export default function About() {
 
         <div className="cards">
           <div className="card1">
-            <img src="img/food-donation.png" alt="" />
+            <img src="../public/aboutImg/._food-donation.png" alt="" />
             <div className="card-title">
               <p>Charity For Education</p>
             </div>
@@ -79,7 +79,7 @@ export default function About() {
           </div>
 
           <div className="card2">
-            <img src="img/grocery-cart.png" alt="" />
+            <img src="../public/aboutImg/._grocery-cart.png" alt="" />
             <div className="card-title">
               <p>Charity For Education</p>
             </div>
@@ -93,7 +93,7 @@ export default function About() {
           </div>
 
           <div className="card3">
-            <img src="img/recipe-book.png" alt="" />
+            <img src="../public/aboutImg/._recipe-book.png" alt="" />
             <div className="card-title">
               <p>Charity For Education</p>
             </div>
@@ -116,60 +116,60 @@ export default function About() {
         <div className="team-title">Our Team</div>
 
         <div className="yash">
-          <img src="/img/yash.jpg" alt="" />
+          <img src="../public/aboutImg/._yash.jpg" alt="" />
           <div className="card-body">
             <div className="teamcard-title">
               <p> Yash Wadhwani </p>
             </div>
             <div className="yashprofile">
               <a href="#">
-                <img src="img/github (2).png" alt="" />
+                <img src="../public/aboutImg/._github (2).png" alt="" />
               </a>
               <a href="#">
-                <img src="img/linkedin (2).png" alt="" />
+                <img src="../public/aboutImg/._linkedin (2).png" alt="" />
               </a>
               <a href="https://www.instagram.com/yashwadhvani75/?img_index=1">
-                <img src="img/instagram (2).png" alt="" />
+                <img src="../public/aboutImg/._instagram (2).png" alt="" />
               </a>
             </div>
           </div>
         </div>
 
         <div className="varun">
-          <img src="/img/varun.jpeg" alt="" />
+          <img src="../public/aboutImg/._varun.jpeg" alt="" />
           <div className="card-body">
             <div className="teamcard-title">
               <p> Varun Jethani </p>
             </div>
             <div className="varunprofile">
               <a href="#">
-                <img src="img/github (2).png" alt="" />
+                <img src="../public/aboutImg/._github (2).png" alt="" />
               </a>
               <a href="#">
-                <img src="img/linkedin (2).png" alt="" />
+                <img src="../public/aboutImg/._linkedin (2).png" alt="" />
               </a>
               <a href="https://www.instagram.com/varun_jethani2444/">
-                <img src="img/instagram (2).png" alt="" />
+                <img src="../public/aboutImg/._instagram (2).png" alt="" />
               </a>
             </div>
           </div>
         </div>
 
         <div className="jay">
-          <img src="/img/me.jpeg" alt="" />
+          <img src="../public/aboutImg/._me.jpeg" alt="" />
           <div className="card-body">
             <div className="teamcard-title">
               <p> Jay Haryani </p>
             </div>
             <div className="jayprofile">
               <a href="#">
-                <img src="img/github (2).png" alt="" />
+                <img src="../public/aboutImg/._github (2).png" alt="" />
               </a>
               <a href="#">
-                <img src="img/linkedin (2).png" alt="" />
+                <img src="../public/aboutImg/._linkedin (2).png" alt="" />
               </a>
               <a href="#">
-                <img src="img/instagram (2).png" alt="" />
+                <img src="../public/aboutImg/._instagram (2).png" alt="" />
               </a>
             </div>
           </div>
