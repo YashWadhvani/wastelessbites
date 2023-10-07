@@ -1,12 +1,12 @@
 import "./App.css";
 import Card from "../src/components/Card";
 import Navbar from "../src/components/Navbar";
-import About from "../src/components/About";
+// import About from "../src/components/About";
 // import { Donation } from "../src/components/Donation";
-import { Login } from "../src/components/Login";
-import { SignUp } from "../src/components/SignUp";
-import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import { Login } from "../src/components/Login";
+// import { SignUp } from "../src/components/SignUp";
+// import React, { Component } from "react";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import Footer from "./components/Footer";
 
 function App() {
