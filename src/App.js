@@ -56,7 +56,6 @@ function App() {
         />
       </div>
 
-      {/* ---- Diffrence ---- */}
       <div className="diffrence">
         <div className="diff-title">
           <p>How we are making a Diffrence</p>
@@ -88,10 +87,6 @@ function App() {
           <button className="Read-more"> Read More </button>
         </div>
 
-        {/* ---- Diffrence ---- */}
-
-        {/* /* ----  Form ---- */}
-
         <div className="form-title">
           <pre>Let's Create Something Great Together!</pre>
         </div>
@@ -118,21 +113,7 @@ function App() {
           </form>
           <input type="submit" value="Submit" />
         </div>
-
-        {/* <div className="footer">
-      <img src="/img/footer-bg.png" alt="">
-      <div className="face"><a href="#"><img src="/img/icons8-facebook-94.png" alt=""></a></div> */}
-        {/* <div className="insta"><a href="#"><img src="/img/icons8-instagram-94.png" alt=""></a></div>
-      <div className="linked"><a href="#"><img src="/img/icons8-linkedin-94.png" alt=""></a></div> 
       </div>
-      </div> */}
-
-        {/* /* ----  Form ---- */}
-      </div>
-
-      {/* <Donation /> */}
-      {/* <Footer /> */}
-      {/* <About /> */}
 
       {/* <Routes>
           <Route exact path="/" element={<App />}></Route>
